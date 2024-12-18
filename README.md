@@ -37,10 +37,9 @@ This project demonstrates UI automation testing using Selenium WebDriver. The te
 2. **Install Maven**:
    - Maven is required for dependency management.
    - Download Maven.
-
 3. **Download Browser Driver**:
-   - Download the ChromeDriver version that matches your browser version.
-   - Place the driver in a directory included in your `PATH` or configure it in the code.
+   - Download the ChromeDriver version that matches your browser version from [ChromeDriver Downloads](https://sites.google.com/a/chromium.org/chromedriver/).
+   - Place the driver in a directory included in your `PATH`.
      ```
 ### Run the Tests
 1. **Using an IDE (Eclipse/IntelliJ)**:
