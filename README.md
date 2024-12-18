@@ -1,26 +1,14 @@
 # UI Automation Testing with Selenium
 
 ## Overview
-This project demonstrates UI automation testing using Selenium WebDriver. The tests are designed to verify the functionality of the login feature on the [DemoQA Login Page](https://demoqa.com/login). It includes test cases for both valid and invalid credentials.
+This project demonstrates UI automation testing using Selenium WebDriver. The tests are designed to verify the functionality of the login feature. It includes test cases for both valid and invalid credentials.
 
 ## Tools & Technologies
 - **Programming Language**: Java
 - **Automation Framework**: Selenium WebDriver
 - **Build Tool**: Maven
 - **Browser**: Google Chrome
-- **Testing Tool**: JUnit/TestNG (optional, based on your setup)
-
-## Folder Structure
-```
-├── src
-│   ├── main
-│   │   └── java
-│   │       └── LoginTests.java    
-│   └── test
-│       └── java
-├── pom.xml                       
-└── README.md                     
-```
+- **Testing Tool**: JUnit/TestNG
 
 ## Approach
 1. **Test Scenarios**:
@@ -35,10 +23,7 @@ This project demonstrates UI automation testing using Selenium WebDriver. The te
      - Click on the login button.
      - Verify if an error message is displayed.
 
-2. **Wait Mechanism**:
-   - **Explicit Wait** is used to handle dynamic elements on the page.
-
-3. **Assertions**:
+2. **Assertions**:
    - For valid credentials, the test checks for the presence of the username element after login.
    - For invalid credentials, the test checks for the visibility of an error message.
 
@@ -46,22 +31,17 @@ This project demonstrates UI automation testing using Selenium WebDriver. The te
 
 ### Prerequisites
 1. **Install JDK**:
-   - Ensure you have JDK 8 or higher installed.
+   - Ensure you have JDK latest version.
    - Set `JAVA_HOME` in your environment variables.
 
 2. **Install Maven**:
    - Maven is required for dependency management.
-   - Download Maven from [Apache Maven](https://maven.apache.org/download.cgi).
+   - Download Maven.
 
 3. **Download Browser Driver**:
-   - Download the ChromeDriver version that matches your browser version from [ChromeDriver Downloads](https://sites.google.com/a/chromium.org/chromedriver/).
+   - Download the ChromeDriver version that matches your browser version.
    - Place the driver in a directory included in your `PATH` or configure it in the code.
 
-4. **Clone the Repository**:
-   - Clone this project from the source control system using:
-     ```bash
-     git clone <repository-url>
-     cd <repository-directory>
      ```
 
 ### Run the Tests
