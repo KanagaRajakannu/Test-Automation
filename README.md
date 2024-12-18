@@ -41,7 +41,6 @@ This project demonstrates UI automation testing using Selenium WebDriver. The te
 3. **Download Browser Driver**:
    - Download the ChromeDriver version that matches your browser version.
    - Place the driver in a directory included in your `PATH` or configure it in the code.
-
      ```
 
 ### Run the Tests
